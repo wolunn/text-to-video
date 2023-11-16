@@ -2,6 +2,10 @@
 // @ts-ignore
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss']
+  modules: ['@nuxtjs/tailwindcss','@nuxt/content'],
+  content: {
+    documentDriven: true,
+    // 其他配置项...
+  },
 })
 
