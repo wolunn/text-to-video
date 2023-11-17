@@ -29,25 +29,11 @@
             </div> <!-- MENU CONTENT 2 -->
             <div class="flex flex-col space-y-8 lg:flex lg:flex-row lg:space-x-3 lg:space-y-0" x-bind:class="isOpen ? 'show' : 'hidden'">
               <div class="relative inline-block text-left">
-                <div>
-                  <button @click="isDropdownOpen = !isDropdownOpen" type="button" class="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
-                    选择语言
-                    <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                    </svg>
-                  </button>
-                </div>
-                <!-- 根据 isDropdownOpen 的值显示或隐藏下拉菜单 -->
-                <div v-if="isDropdownOpen" class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                  <div class="py-1">
-                    <!-- 下拉菜单项 -->
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="menu-item-0">English (United States)</a>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="menu-item-1">日本語 (Japan)</a>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="menu-item-2">中文 (China)</a>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="menu-item-3">Русский (Russia)</a>
-
-                  </div>
-                </div>
+                <select v-model="$i18n.locale">
+                  <option v-for="locale in $i18n.locales" :key="locale.code" :value="locale.code">
+                    {{ locale.code }}
+                  </option>
+                </select>
               </div>
 
             </div> <!-- BURGER MENU -->
@@ -67,12 +53,6 @@
 </template>
 
 <script setup>
-// 在这里编写 JavaScript 代码
-import { ref } from 'vue';
 
-// 使用 ref 创建响应式引用
-const isDropdownOpen = ref(false);
-
-// 可以在这里定义其他响应式状态或方法
 </script>
 
