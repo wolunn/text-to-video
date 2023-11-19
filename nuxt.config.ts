@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     // These are the languages you want to support in your application
     locales: [
       { code: 'en',name:'English', iso: 'en-US', file: 'en-US.js' },
-      { code: 'fr', name:'Français (French)',iso: 'fr-FR', file: 'fr-FR.js' },
+      { code: 'zh', name:'简体中文 (Chinese)',iso: 'zh-CN', file: 'zh-CN.js' },
       // Add other languages here
     ],
     defaultLocale: 'en',

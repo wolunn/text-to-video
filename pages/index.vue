@@ -9,17 +9,17 @@
           <!-- Hero Content -->
           <div class="flex flex-col">
             <!-- Hero Title -->
-            <h1 class="mb-4 text-4xl font-bold md:text-6xl">Text to Video — Instant Story, Zero Edit.</h1>
-            <p class="mb-6 max-w-lg text-sm text-[#636262] sm:text-xl md:mb-10 lg:mb-12">Text to Video weaves words into visuals, turning text into engaging scenes with ease, crafting your message into motion without the montage.</p>
+            <h1 class="mb-4 text-4xl font-bold md:text-6xl">{{ $t('mainTitle') }}</h1>
+            <p class="mb-6 max-w-lg text-sm text-[#636262] sm:text-xl md:mb-10 lg:mb-12">{{ $t('subTitle') }}</p>
             <!-- Hero Button -->
             <a href="/utilities" class="mb-6 mr-6 w-36 rounded-md bg-black px-6 py-3 text-center font-semibold text-white md:mb-10 lg:mb-12 lg:mr-8">Get Started</a>
             <!-- Hero Comment -->
             <div class="max-w-xs">
-              <p class="mb-4 text-sm text-[#636262]">Text to Video: Script to scene, your words in motion, effortlessly visual.</p>
+              <p class="mb-4 text-sm text-[#636262]">{{ $t('review') }}</p>
               <div class="flex items-start gap-11 sm:flex-row">
                 <div class="flex">
                   <img src="~/assets/img/touxiang.png" alt="" class="mr-2 inline-block h-7 w-7 sm:h-7" />
-                  <p class="text-sm font-bold">Aleeyah</p>
+                  <p class="text-sm font-bold">{{ $t('personName') }}</p>
                 </div>
                 <div class="flex">
                   <p class="mr-2 text-sm font-bold">5.0</p>
@@ -43,7 +43,7 @@
 </template>
 
 <script setup>
-
+const { t } = useI18n();
 </script>
 
 <style scoped>

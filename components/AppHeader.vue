@@ -7,15 +7,15 @@
           <div class="flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4 xl:px-20"> <!-- SVG LOGO - YOU CAN REPLACE THIS -->
             <a href="#" class="flex items-center">
               <img src="~/assets/img/tubiao.png" alt="Text to Video Icon" class="h-8 w-8 mr-2"> <!-- 图标路径 -->
-              <span class="font-bold text-lg text-gray-800">text to video</span> <!-- 文字样式 -->
+              <span class="font-bold text-lg text-gray-800">{{ $t('title') }}</span> <!-- 文字样式 -->
             </a>
             <!-- MENU CONTENT 1 -->
             <div class="mt-14 flex flex-col space-y-8 lg:mt-0 lg:flex lg:flex-row lg:space-x-1 lg:space-y-0">
-              <a :class="isActive('/') ? activeClass : inactiveClass" href="/">Home</a>
-              <a :class="isActive('/utilities') ? activeClass : inactiveClass" href="/utilities">Utilities</a>
-              <a :class="isActive('/blogs') ? activeClass : inactiveClass" href="/blogs">Blogs</a>
-              <a :class="isActive('/about') ? activeClass : inactiveClass" href="/about">About Us</a>
-              <a :class="isActive('/terms') ? activeClass : inactiveClass" href="/terms">Terms and Conditions</a>
+              <a :class="isActive('/') ? activeClass : inactiveClass" href="/">{{ $t('Home') }}</a>
+              <a :class="isActive('/utilities') ? activeClass : inactiveClass" href="/utilities">{{ $t('Utilities') }}</a>
+              <a :class="isActive('/blogs') ? activeClass : inactiveClass" href="/blogs">{{ $t('Blogs') }}</a>
+              <a :class="isActive('/about') ? activeClass : inactiveClass" href="/about">{{ $t('About') }}</a>
+              <a :class="isActive('/terms') ? activeClass : inactiveClass" href="/terms">{{ $t('Terms') }}</a>
             </div>
             <!-- MENU CONTENT 2 -->
             <div class="flex flex-col space-y-8 lg:flex lg:flex-row lg:space-x-3 lg:space-y-0" x-bind:class="isOpen ? 'show' : 'hidden'">
@@ -46,6 +46,7 @@
 <script setup>
 
 const route = useRoute();
+const { t } = useI18n();
 
 const isActive = (path) => {
   return route.path === path;
