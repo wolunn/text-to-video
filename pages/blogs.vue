@@ -1,9 +1,9 @@
 <template>
   <div>
     <AppHeader />
-    <div class="flex mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 ">
-      <!-- Article List Section -->
-      <aside class="w-1/3 p-4 overflow-y-auto">
+    <div class="flex mx-auto w-full max-w-7xl px-5 py-12">
+      <!-- Article List Section with Custom Height and Scrollable -->
+      <aside class="w-1/3 p-4 overflow-y-auto h-[32rem]"> <!-- 修改这里的高度 -->
         <ContentList :path="`/blog/${locale}`" v-slot="{ list }">
           <div v-for="article in list" :key="article._path" class="mb-4">
             <h2 class="text-lg font-semibold">
@@ -40,5 +40,5 @@ const { locale } = useI18n();
 </script>
 
 <style>
-/* 您可以在这里添加一些额外的 Tailwind CSS 样式 */
+/* Add additional Tailwind CSS styles if needed */
 </style>
