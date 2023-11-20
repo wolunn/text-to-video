@@ -33,7 +33,7 @@
             </div>
           </div>
           <!-- Hero Image -->
-          <img src="~/assets/img/texttovideo.png" alt="" class="inline-block h-full w-full max-w-[640px]" />
+          <img src="~/assets/img/texttovideo.png" alt="title picture text to video" class="inline-block h-full w-full max-w-[640px]" />
         </div>
       </div>
     </header>
