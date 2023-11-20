@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     strategy: 'prefix_except_default',
   },
   site: {
-    url: 'https://example.com',
+    url: 'https://text-to-video.top',
   },
 })
 
