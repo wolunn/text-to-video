@@ -1,6 +1,9 @@
 ---
 title: The Text-to-Video Revolution in Content Creation
 description: Delving into how text-to-video is shaping the future of content creation across various media platforms.
+publishDate: 2023-08-11
+likes: 83
+views: 1.1k
 ---
 
 # The Text-to-Video Revolution in Content Creation

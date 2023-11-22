@@ -1,6 +1,9 @@
 ---
 title: Mastering Social Media Engagement with Text to Video
 description: Learn how converting text to video can skyrocket your social media engagement and presence.
+publishDate: 2023-08-11
+likes: 83
+views: 1.1k
 ---
 
 # Mastering Social Media Engagement with Text to Video

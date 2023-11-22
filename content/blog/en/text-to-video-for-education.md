@@ -1,6 +1,9 @@
 ---
 title: Enhancing Learning Experiences with Text to Video
 description: Discover how text to video is innovating educational content delivery for better engagement and learning outcomes.
+publishDate: 2023-08-11
+likes: 83
+views: 1.1k
 ---
 
 # Enhancing Learning Experiences with Text to Video

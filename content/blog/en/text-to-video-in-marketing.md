@@ -1,6 +1,9 @@
 ---
 title: The Impact of Text to Video in Marketing Strategies
 description: Explore how text to video technology is revolutionizing marketing approaches with engaging content.
+publishDate: 2023-08-11
+likes: 83
+views: 1.1k
 ---
 
 # The Impact of Text to Video in Marketing Strategies
