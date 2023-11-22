@@ -1,7 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+// @ts-ignore
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss','@nuxt/content','@nuxtjs/i18n','nuxt-simple-sitemap',/*'@nuxtjs/supabase'*/],
+  // ...其他配置...
+  plugins: [
+    '~/plugins/google-analytics.client.js' // 确保路径与插件文件的实际位置相匹配
+  ],
   content: {
     documentDriven: true,
     // 其他配置项...
