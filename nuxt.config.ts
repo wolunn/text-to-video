@@ -1,5 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-// @ts-ignore
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss','@nuxt/content','@nuxtjs/i18n','nuxt-simple-sitemap',/*'@nuxtjs/supabase'*/],
