@@ -11,6 +11,8 @@ export default {
     subTitle :'AI Text to Video weaves words into visuals, turning text into engaging scenes with ease, crafting your message into motion without the montage.',
     review: 'AI Text to Video: Script to scene, your words in motion, effortlessly visual.',
     personName:'Aleeyah',
+    mainTweetTitle:'AI Text to Video Related Tweets',
+    subTweetTitle:'Exploring the Innovative Journey from AI Text to Video: The Infinite Possibilities of Merging Technology and Creativity.',
     //utilities.vue
     utilitiesTitle: 'Last updated as of October 17, 2022',
     utilitiesTitle1: 'Video Creation Services',

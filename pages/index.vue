@@ -43,8 +43,8 @@
       <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 ">
         <!-- Title -->
         <div class="flex flex-col items-center text-center">
-          <h2 class="text-3xl font-bold md:text-5xl">AI Text to Video Related Tweets</h2>
-          <p class="mb-8 mt-4 max-w-xl text-base text-[#636262] md:mb-12 md:text-lg lg:mb-16">Exploring the Innovative Journey from AI Text to Video: The Infinite Possibilities of Merging Technology and Creativity.</p>
+          <h2 class="text-3xl font-bold md:text-5xl">{{ $t('mainTweetTitle') }}</h2>
+          <p class="mb-8 mt-4 max-w-xl text-base text-[#636262] md:mb-12 md:text-lg lg:mb-16">{{ $t('subTweetTitle') }}</p>
         </div>
 
         <ul class="tweet-list w-full">

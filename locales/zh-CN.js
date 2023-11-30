@@ -11,6 +11,8 @@ export default {
     subTitle: '文字到视频将文字编织成视觉，轻松将文本变成吸引人的场景，无需剪辑即可将您的信息变成动画。',
     review: '文字到视频：从剧本到场景，您的文字轻松变成视觉效果。',
     personName: 'Aleeyah',
+    mainTweetTitle:'在Twitter上的AI Text to Video',
+    subTweetTitle:'探索从AI文字到视频的创新之旅：融合技术与创意的无限可能。',
     // utilities.vue
     utilitiesTitle: '最后更新时间为2022年10月17日',
     utilitiesTitle1: '视频创作服务',
