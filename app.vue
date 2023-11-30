@@ -5,21 +5,17 @@
 </template>
 <script setup>
 useHead({
-  title: 'My App',
+  title: 'AI Text to Video',
   meta: [
     { name: 'description', content: 'My amazing site.' }
   ],
-  bodyAttrs: {
-    class: 'test'
-  },
-  script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
 })
 useSeoMeta({
-  title: 'My Amazing Site',
-  ogTitle: 'My Amazing Site',
-  description: 'This is my amazing site, let me tell you all about it.',
-  ogDescription: 'This is my amazing site, let me tell you all about it.',
-  ogImage: 'https://example.com/image.png',
-  twitterCard: 'summary_large_image',
+  title: 'AI Text to Video',
+  ogTitle: 'AI Text to Video',
+  description: 'AI Text to Video weaves words into visuals, turning text into engaging scenes with ease, crafting your message into motion without the montage.',
+  ogDescription: 'AI Text to Video weaves words into visuals, turning text into engaging scenes with ease, crafting your message into motion without the montage.',
+  ogImage: '~/assets/img/tubiao.png',
+  twitterCard: 'text_to_video_image',
 })
 </script>

@@ -1,14 +1,14 @@
 ---
-title: Mastering Social Media Engagement with Text to Video
-description: Learn how converting text to video can skyrocket your social media engagement and presence.
+title: Mastering Social Media Engagement with AI Text to Video
+description: Learn how converting AI Text to Video can skyrocket your social media engagement and presence.
 publishDate: 2023-08-11
 likes: 83
 views: 1.1k
 ---
 
-# Mastering Social Media Engagement with Text to Video
+# Mastering Social Media Engagement with AI Text to Video
 
-In the fast-paced world of social media, content creators are constantly looking for innovative ways to capture the audience's attention. Text to video technology offers a unique solution by turning static text posts into dynamic video content.
+In the fast-paced world of social media, content creators are constantly looking for innovative ways to capture the audience's attention. AI Text to Video technology offers a unique solution by turning static text posts into dynamic video content.
 
 ## Capturing Attention in the Age of Scrolling
 

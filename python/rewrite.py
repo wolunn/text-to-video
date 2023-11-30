@@ -46,7 +46,7 @@ def save_processed_file(original_path, processed_content):
 # 主函数
 def main():
     # 文件夹路径
-    base_folder_path = 'text to video'
+    base_folder_path = 'AI Text to Video'
 
     for root, dirs, files in os.walk(base_folder_path):
         for file_name in files:

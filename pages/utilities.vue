@@ -16,7 +16,7 @@
     <section>
       <!-- Section Container -->
       <div class="flex flex-col items-center justify-center px-5 md:px-10">
-        <!-- Text to Video Container -->
+        <!-- AI Text to Video Container -->
         <div class="mx-auto w-full max-w-5xl">
           <p class="mb-5 text-base font-extrabold uppercase">{{ $t('utilitiesTitle') }}</p>
           <div class="mb-6 min-h-[1px] min-w-full bg-[#e2e2e2]"></div>

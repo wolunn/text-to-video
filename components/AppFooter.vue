@@ -31,7 +31,7 @@
           <div class="font-medium md:order-1 mb-2 md:mb-0 ht">
             <ul class="inline-flex flex-wrap text-sm font-medium">
               <li class="after:content-['·'] last:after:hidden after:text-gray-400 after:px-2">
-                <a class="text-gray-500 hover:text-gray-500 hover:underline" target="_blank" href="https://text-to-video.top">Text To Video</a>
+                <a class="text-gray-500 hover:text-gray-500 hover:underline" target="_blank" href="https://text-to-video.top">AI Text to Video</a>
               </li>
 
               <li class="after:content-['·'] last:after:hidden after:text-gray-400 after:px-2">

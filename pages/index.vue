@@ -33,7 +33,7 @@
             </div>
           </div>
           <!-- Hero Image -->
-          <img src="~/assets/img/texttovideo.png" alt="title picture text to video" class="inline-block h-full w-full max-w-[640px]" />
+          <img src="~/assets/img/texttovideo.png" alt="title picture AI Text to Video" class="inline-block h-full w-full max-w-[640px]" />
         </div>
       </div>
     </header>
@@ -43,13 +43,13 @@
       <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 ">
         <!-- Title -->
         <div class="flex flex-col items-center text-center">
-          <h2 class="text-3xl font-bold md:text-5xl">Text To Video Related Tweets</h2>
-          <p class="mb-8 mt-4 max-w-xl text-base text-[#636262] md:mb-12 md:text-lg lg:mb-16">Exploring the Innovative Journey from Text to Video: The Infinite Possibilities of Merging Technology and Creativity.</p>
+          <h2 class="text-3xl font-bold md:text-5xl">AI Text to Video Related Tweets</h2>
+          <p class="mb-8 mt-4 max-w-xl text-base text-[#636262] md:mb-12 md:text-lg lg:mb-16">Exploring the Innovative Journey from AI Text to Video: The Infinite Possibilities of Merging Technology and Creativity.</p>
         </div>
 
         <ul class="tweet-list w-full">
           <li class="tweet-one break-inside-avoid">
-            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We got AI text to video generation before we got GTA 6 <a href="https://twitter.com/hashtag/ad?src=hash&amp;ref_src=twsrc%5Etfw">#ad</a> <a href="https://t.co/PXgQ1Gto0q">pic.twitter.com/PXgQ1Gto0q</a></p>&mdash; Ian Zelbo (@ianzelbo) <a href="https://twitter.com/ianzelbo/status/1729526022570234169?ref_src=twsrc%5Etfw">November 28, 2023</a></blockquote>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We got AI AI Text to Video generation before we got GTA 6 <a href="https://twitter.com/hashtag/ad?src=hash&amp;ref_src=twsrc%5Etfw">#ad</a> <a href="https://t.co/PXgQ1Gto0q">pic.twitter.com/PXgQ1Gto0q</a></p>&mdash; Ian Zelbo (@ianzelbo) <a href="https://twitter.com/ianzelbo/status/1729526022570234169?ref_src=twsrc%5Etfw">November 28, 2023</a></blockquote>
           </li>
           <li class="tweet-one break-inside-avoid">
             <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Pika 1.0 is finally out, bringing the power of AI text-to-video generation and editing together with new styles such as 3D animation, cartoon, and cinematic.<br><br>Check it out: <a href="https://t.co/YxBhloTog5">https://t.co/YxBhloTog5</a><a href="https://twitter.com/pika_labs?ref_src=twsrc%5Etfw">@pika_labs</a> <a href="https://twitter.com/hashtag/AI?src=hash&amp;ref_src=twsrc%5Etfw">#AI</a> <a href="https://twitter.com/hashtag/GenerativeAI?src=hash&amp;ref_src=twsrc%5Etfw">#GenerativeAI</a> <a href="https://twitter.com/hashtag/videoediting?src=hash&amp;ref_src=twsrc%5Etfw">#videoediting</a> <a href="https://twitter.com/hashtag/tech?src=hash&amp;ref_src=twsrc%5Etfw">#tech</a> <a href="https://twitter.com/hashtag/technews?src=hash&amp;ref_src=twsrc%5Etfw">#technews</a> <a href="https://twitter.com/hashtag/technology?src=hash&amp;ref_src=twsrc%5Etfw">#technology</a> <a href="https://twitter.com/hashtag/animation?src=hash&amp;ref_src=twsrc%5Etfw">#animation</a> <a href="https://t.co/VN7BzKgTT0">pic.twitter.com/VN7BzKgTT0</a></p>&mdash; 80 LEVEL (@80Level) <a href="https://twitter.com/80Level/status/1730134572061388887?ref_src=twsrc%5Etfw">November 30, 2023</a></blockquote>
@@ -76,7 +76,7 @@
             <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I just setup and tested the &quot;self-operating computer&quot; and WOW was it scary. <br><br>AI literally took over my mouse and keyboard and did what I told it to do. <br><br>Video coming soon.<a href="https://t.co/q3gOzYspxe">https://t.co/q3gOzYspxe</a></p>&mdash; MatthewBerman (@MatthewBerman) <a href="https://twitter.com/MatthewBerman/status/1729973197859401751?ref_src=twsrc%5Etfw">November 29, 2023</a></blockquote>
           </li>
           <li class="tweet-one break-inside-avoid">
-            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We got AI text to video generation before we got GTA 6 <a href="https://twitter.com/hashtag/ad?src=hash&amp;ref_src=twsrc%5Etfw">#ad</a> <a href="https://t.co/PXgQ1Gto0q">pic.twitter.com/PXgQ1Gto0q</a></p>&mdash; Ian Zelbo (@ianzelbo) <a href="https://twitter.com/ianzelbo/status/1729526022570234169?ref_src=twsrc%5Etfw">November 28, 2023</a></blockquote>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We got AI AI Text to Video generation before we got GTA 6 <a href="https://twitter.com/hashtag/ad?src=hash&amp;ref_src=twsrc%5Etfw">#ad</a> <a href="https://t.co/PXgQ1Gto0q">pic.twitter.com/PXgQ1Gto0q</a></p>&mdash; Ian Zelbo (@ianzelbo) <a href="https://twitter.com/ianzelbo/status/1729526022570234169?ref_src=twsrc%5Etfw">November 28, 2023</a></blockquote>
           </li>
           <li class="tweet-one break-inside-avoid">
             <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Meet EWO’s! Hardworking robots that power our everyday lives - the unsung heroes, but even they deserve a break!<br><br>First time trying Runway 🤖 <a href="https://twitter.com/runwayml?ref_src=twsrc%5Etfw">@runwayml</a> <a href="https://twitter.com/hashtag/Runway?src=hash&amp;ref_src=twsrc%5Etfw">#Runway</a> <a href="https://twitter.com/hashtag/AIArtcommunity?src=hash&amp;ref_src=twsrc%5Etfw">#AIArtcommunity</a> <a href="https://twitter.com/hashtag/AIVideo?src=hash&amp;ref_src=twsrc%5Etfw">#AIVideo</a> <a href="https://t.co/tHPCs9YlAF">pic.twitter.com/tHPCs9YlAF</a></p>&mdash; Evatron (@twisted_evatron) <a href="https://twitter.com/twisted_evatron/status/1729666685643157639?ref_src=twsrc%5Etfw">November 29, 2023</a></blockquote>

@@ -6,7 +6,7 @@
         <nav class="font-inter mx-auto h-auto w-full max-w-[1600px] lg:relative lg:top-0" x-data="{isOpen: false, menuOne:false}"> <!-- CONTAINER -->
           <div class="flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4 xl:px-20"> <!-- SVG LOGO - YOU CAN REPLACE THIS -->
             <a href="#" class="flex items-center">
-              <img src="~/assets/img/tubiao.png" alt="Text to Video Icon" class="h-8 w-8 mr-2"> <!-- 图标路径 -->
+              <img src="~/assets/img/tubiao.png" alt="AI Text to Video Icon" class="h-8 w-8 mr-2"> <!-- 图标路径 -->
               <span class="font-bold text-lg text-gray-800">{{ $t('title') }}</span> <!-- 文字样式 -->
             </a>
             <!-- MENU CONTENT 1 -->
