@@ -11,11 +11,11 @@
             </a>
             <!-- MENU CONTENT 1 -->
             <div class="mt-14 flex flex-col space-y-8 lg:mt-0 lg:flex lg:flex-row lg:space-x-1 lg:space-y-0">
-              <a :class="isActive('/') ? activeClass : inactiveClass" :href="localePath({ name: 'index' })">{{ $t('Home') }}</a>
-              <a :class="isActive('/utilities') ? activeClass : inactiveClass" :href="localePath({ name: 'utilities' })">{{ $t('Utilities') }}</a>
+              <a :class="isActive('index') ? activeClass : inactiveClass" :href="localePath({ name: 'index' })">{{ $t('Home') }}</a>
+              <a :class="isActive('utilities') ? activeClass : inactiveClass" :href="localePath({ name: 'utilities' })">{{ $t('Utilities') }}</a>
 <!--              <a :class="isActive('/blogs') ? activeClass : inactiveClass" :href="localePath({ name: 'blogs' })">{{ $t('Blogs') }}</a>-->
-              <a :class="isActive('/about') ? activeClass : inactiveClass" :href="localePath({ name: 'about' })">{{ $t('About') }}</a>
-              <a :class="isActive('/terms') ? activeClass : inactiveClass" :href="localePath({ name: 'terms' })">{{ $t('Terms') }}</a>
+              <a :class="isActive('about') ? activeClass : inactiveClass" :href="localePath({ name: 'about' })">{{ $t('About') }}</a>
+              <a :class="isActive('terms') ? activeClass : inactiveClass" :href="localePath({ name: 'terms' })">{{ $t('Terms') }}</a>
             </div>
             <!-- MENU CONTENT 2 -->
             <div class="flex flex-col space-y-8 lg:flex lg:flex-row lg:space-x-3 lg:space-y-0" x-bind:class="isOpen ? 'show' : 'hidden'">
@@ -49,7 +49,8 @@ const route = useRoute();
 const { t } = useI18n();
 
 const isActive = (name) => {
-  return route.name === name;
+  console.log("11111111",route.name,name)
+  return route.name.includes(name);
 };
 
 const activeClass = 'font-inter rounded-lg lg:px-6 lg:py-4 lg:bg-gray-50 lg:text-gray-800';

@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss','@nuxt/content','@nuxtjs/i18n','nuxt-simple-sitemap',/*'@nuxtjs/supabase'*/],
+  modules: ['@nuxtjs/tailwindcss','@nuxt/content','@nuxtjs/i18n','nuxt-simple-sitemap','nuxt-simple-robots'/*'@nuxtjs/supabase'*/],
   // ...其他配置...
   content: {
     documentDriven: true,
