@@ -49,7 +49,6 @@ const route = useRoute();
 const { t } = useI18n();
 
 const isActive = (name) => {
-  console.log("11111111",route.name,name)
   return route.name.includes(name);
 };
 
