@@ -9,7 +9,7 @@
           <!-- Hero Content -->
           <div class="flex flex-col">
             <!-- Hero Title -->
-            <h1 class="mb-4 text-4xl font-bold md:text-6xl">{{ $t('mainTitle') }}</h1>
+            <h1 id="wwj" class="mb-4 text-4xl font-bold md:text-6xl">{{ $t('mainTitle') }}</h1>
             <p class="mb-6 max-w-lg text-sm text-[#636262] sm:text-xl md:mb-10 lg:mb-12">{{ $t('subTitle') }}</p>
             <!-- Hero Button -->
             <a href="/utilities" class="mb-6 mr-6 w-36 rounded-md bg-black px-6 py-3 text-center font-semibold text-white md:mb-10 lg:mb-12 lg:mr-8">Get Started</a>

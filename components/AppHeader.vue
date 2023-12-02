@@ -13,7 +13,7 @@
             <div class="mt-14 flex flex-col space-y-8 lg:mt-0 lg:flex lg:flex-row lg:space-x-1 lg:space-y-0">
               <a :class="isActive('index') ? activeClass : inactiveClass" :href="localePath({ name: 'index' })">{{ $t('Home') }}</a>
               <a :class="isActive('utilities') ? activeClass : inactiveClass" :href="localePath({ name: 'utilities' })">{{ $t('Utilities') }}</a>
-<!--              <a :class="isActive('/blogs') ? activeClass : inactiveClass" :href="localePath({ name: 'blogs' })">{{ $t('Blogs') }}</a>-->
+              <a :class="isActive('/blogs') ? activeClass : inactiveClass" :href="localePath({ name: 'blogs' })">{{ $t('Blogs') }}</a>
               <a :class="isActive('about') ? activeClass : inactiveClass" :href="localePath({ name: 'about' })">{{ $t('About') }}</a>
               <a :class="isActive('terms') ? activeClass : inactiveClass" :href="localePath({ name: 'terms' })">{{ $t('Terms') }}</a>
             </div>

@@ -7,6 +7,7 @@
       <div class="mx-auto max-w-7xl px-5">
         <!-- Grid layout for articles with 2 columns -->
         <div class="grid md:grid-cols-2 gap-4">
+<!--          <a v-for="article in pagedArticles" :key="article.slug" :href="`/blogDetail/${encodeURIComponent(article._path)}`" target="_blank" class="block">-->
           <a v-for="article in pagedArticles" :key="article.slug" :href="`${article._path}`" target="_blank" class="block">
             <div class="bg-white p-4 border border-black rounded-lg hover:shadow-lg transition-shadow relative">
               <div class="flex space-x-4">
@@ -67,7 +68,7 @@ const { locale } = useI18n();
 // 异步获取数据和刷新函数
 const { data: articles, refresh } = useAsyncData(
     'articles',
-    () => queryContent(`/blog/${locale.value}`).find()
+    () => queryContent(`/blogsmd/${locale.value}`).find()
 );
 
 // 计算总页数和当前页的文章
