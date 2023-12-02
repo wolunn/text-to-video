@@ -32,6 +32,12 @@ export default {
     utilitiesTitle8: 'Governing Law',
     utilitiesDesc8: 'This agreement is governed by the laws of [Your Jurisdiction]. Disputes will be resolved under the jurisdiction of these laws.',
     utilitiesDescLast: 'By using AI Text to Video services, you agree to these terms and acknowledge your understanding of them. This includes all services like automated video editing, narrative crafting, and custom animation services provided by AI Text to Video.',
+    //blogs.vue
+    blogsTitle: 'AI Text To Video',
+    blogsDesc1: 'Revolutionizing Video Generation with AI',
+    blogsDesc2: 'Use the free AI Text To Video service at',
+    blogsTip: 'Search articles...',
+    blogsButton: 'Search',
     //about.vue
     aboutTitle1:'AI Text to Video HQ',
     aboutDesc1:'Elevating content creation with artificial intelligence, AI Text to Video transforms your text into stunning visuals. We empower storytellers, educators, and brands to captivate audiences with minimal effort and maximum impact.',

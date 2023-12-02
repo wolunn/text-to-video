@@ -32,6 +32,12 @@ export default {
     utilitiesTitle8: '适用法律',
     utilitiesDesc8: '本协议受[您的管辖区]法律的管辖。争议将在这些法律的管辖下解决。',
     utilitiesDescLast: '使用文字到视频服务，即表示您同意这些条款并承认您对它们的理解。这包括文字到视频提供的所有服务，如自动化视频编辑、叙述制作和定制动画服务。',
+    //blogs.vue
+    blogsTitle: 'AI 文字转视频',
+    blogsDesc1: '用 AI 革新视频生成',
+    blogsDesc2: '在此使用免费的 AI 文字转视频服务',
+    blogsTip: '搜索文章...',
+    blogsButton: '搜索',
     // about.vue
     aboutTitle1: '文字到视频总部',
     aboutDesc1: '利用人工智能提升内容创作，文字到视频将您的文本转换为惊艳的视觉效果。我们赋能讲故事者、教育工作者和品牌，以最小的努力吸引观众，产生最大的影响。',
